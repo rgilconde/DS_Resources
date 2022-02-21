@@ -1,0 +1,1 @@
+La idea principal es coger el minimo numero de variables que tenga el maximo poder de prediccion. Es decir, se tienen en cuenta todas las variable no variables individuales. De esta manera, se esta teniendo en cuenta la correlacion existente entre las diferentes variables para seleccionar las correctas. Esta basado en el Festadistico y en la correlacion de Pearson

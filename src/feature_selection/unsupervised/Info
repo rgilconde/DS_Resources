@@ -1,0 +1,12 @@
+Dimension reduction without multiplication in machine learning
+
+web: https://www.ieice.org/ken/paper/20200302U1Xv/eng/
+
+
+Example:
+
+selector = FeatureSelector(n_features=20, random_state=314, logging=True)
+X_train_selected = selector.fit_transform(np.array(X_scaled))    # equibalent to X_test[:, selector.selected]
+
+print("training data shape: ", X_train_selected.shape)
+print("selected feature indices: ", selector.selected)
